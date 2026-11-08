@@ -1,0 +1,51 @@
+/* Pílula do ditado: variante "abaixo da barra de menus" do app do Mac do fala.ai, com cantos e cores do
+   libadwaita. 34 px de altura, no mínimo 190 de largura, 18 de respiro dos lados, texto #ddd. */
+.falai-pill {
+    height: 34px;
+    min-width: 190px;
+    padding: 0 18px;
+    spacing: 10px;
+    border-radius: 999px;
+    background-color: rgba(30, 30, 30, 0.96);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.35);
+    color: #dddddd;
+    /* 9 pt = 12 px a 96 dpi; acompanha o "texto grande" da acessibilidade. */
+    font-size: 9pt;
+}
+
+/* Check verde e erro em âmbar (success e warning do libadwaita, legíveis no fundo escuro). */
+.falai-pill-ok,
+.falai-pill-error {
+    spacing: 6px;
+}
+
+.falai-pill-ok {
+    color: #57e389;
+}
+
+.falai-pill-error {
+    color: #e5a50a;
+}
+
+.falai-pill-mark {
+    width: 18px;
+    height: 15px;
+    margin-right: 2px;
+}
+
+.falai-pill-label {
+    max-width: 420px;
+}
+
+.falai-pill-clock {
+    font-feature-settings: "tnum";
+}
+
+/* `.chip` do Mac: fundo branco 12%, raio 6, 11 px. */
+.falai-pill-chip {
+    font-size: 8pt;
+    padding: 1px 6px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.12);
+}
