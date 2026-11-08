@@ -1,7 +1,7 @@
 {
   "uuid": "falai@falai.org",
   "name": "fala.ai",
-  "description": "Pílula do ditado do fala.ai no topo da tela e a janela em foco por D-Bus (org.falai.ShellHelper) para o tom por app. Precisa do daemon do fala.ai (falai daemon).",
+  "description": "fala.ai dictation pill at the top of the screen, and the focused window over D-Bus (org.falai.ShellHelper) for per-app tone. Requires the fala.ai daemon (falai daemon).",
   "shell-version": ["46", "47", "48", "49", "50"],
   "url": "https://github.com/Gitarcitano/falai-gnome-extension",
   "version-name": "0.1"
